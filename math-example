@@ -179,12 +179,12 @@ Throughout this course, you will also build your own Algebra Colab notebook that
 
       For this challenge, you need to create a multi-function calculator using Python that take input and do the following:
 
-          solve proportions
-          solve for x in equations
-          factor square roots
-          convert decimals to fractions and percents
-          convert fractions to decimals and percents
-          convert percents to decimals and fractions
+      - solve proportions
+      - solve for x in equations
+      - factor square roots
+      - convert decimals to fractions and percents
+      - convert fractions to decimals and percents
+      - convert percents to decimals and fractions
 
       If you are struggling, you can follow the [video walkthrough for this project.](https://www.youtube.com/embed/PdsvcZNPEEs)
 
