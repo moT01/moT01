@@ -1,0 +1,191 @@
+==superblock title==
+College Algebra with Python
+
+==superblock intro== 
+This course is designed as a one-semester college course. It consists of instructional videos, with Google Colaboratory notebooks to follow along interactively, assignments, and challenging projects.
+
+As you go through each part of this course in sequence, you will gain a full understanding of Algebra and how to write Python code to solve Algebra problems.
+
+Throughout this course, you will also build your own Algebra Colab notebook that you will be able to use as your custom calculator. This course (and the code you write here) will give you the foundation for a deeper math and data science understanding.
+
+  ==block title==
+  Learn Ratios and Proportions
+
+  ==block intro==
+  Your journey begins here as you learn how to set up a Colab Notebook that can run Python code. Then, use the notebook to follow along with the videos to learn ratios and proportions using Python.
+
+    ==challenge title==
+    Introduction to College Algebra with Python
+
+      ==video==
+      https://www.youtube.com/watch?v=bO3Sn10-XNw
+
+      ==description==
+      This first video includes an introduction to the course, how it will work, and how to use Google Colaboratory. Follow along to create your first Colab notebook.
+
+      Videos throughout these courses will reference problems from these two textbooks:
+
+      - [Business Math, a Step-by-Step Handbook (2021) by Jean-Paul Oliver](https://lyryx.com/subjects/business/business-mathematics/)
+
+      - [Algebra and Trigonometry by Jay Abramson](https://openstax.org/details/books/algebra-and-trigonometry-2e)
+
+
+      ==assignments==
+      Create an algebra [Colab notebook on your google drive](https://drive.google.com/) so you can follow along with the videos.
+
+      ==question==
+      When adding text in Google Colab, what symbol would you use to create a heading that will appear in the table of contents?
+
+      ==options==
+      $
+      #
+      @
+      %
+
+      ==answer==
+      b
+
+    ==challenge title==
+    Solving Proportions
+
+      ==video==
+      https://www.youtube.com/watch?v=61A3PNx1hjY
+
+      ==description==
+      Now we get to the math content. This video will show you how to set up and solve proportions and write code to solve for variables.
+
+      Here is the [Colab notebook to go along with this video.](https://colab.research.google.com/drive/1Q7nCcbrnoYttkwiHB_nQ-X1JuLpUmtRD?usp=sharing) If you have not done so yet, set up your algebra Colab notebook from the last video. Then, add the code from this video to it.
+
+      ==assignments==
+      Add the code from the video to the algebra Colab notebook you created in the first step.
+
+      ==question==
+      In solving a proportion, if one numerator is zero, does the other numerator have to be zero for the statement to be true?
+
+      ==options==
+      yes
+      no
+      sometimes
+
+      ==answer==
+      a
+
+    ==challenge title==
+    Ratios and Proportions: Extra
+  
+      ==video==
+      https://www.youtube.com/watch?v=6o0SsdyUf2U
+
+      ==description==
+      The last video in this section will show you how to use proportions in other applications, such as currency exchange rates and unit conversion. It will also show you more about setting up your notebook and working through the practice assignment.
+
+      ==assignments==
+      Open the following Colab notebook, run the cell, and [practice solving one-step algebra problems.](https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45) As a bonus, look at the code that generates the practice problems.
+
+      ==question==
+      What is another way to write 0.9999... (repeating 9)?
+
+      ==options==
+      99 percent
+      You can't get an exact answer
+      1
+      Almost 1
+
+      ==answer==
+      c
+
+  ==block title==
+  Learn How to Solve for X
+
+  ==block intro==
+  This unit will focus on how to solve for an unknown number (often referred to as "x") using written Algebra and Python code.
+
+    ==challenge title==
+    Solving for X
+
+      ==video==
+      https://www.youtube.com/watch?v=_U9PEFKjyb8
+
+      ==description==
+      This first video will show you the essence of algebra and then how Python code does the same task in a different way.
+
+      Here is the [Colab notebook to go along with this video.](https://colab.research.google.com/drive/11Zi77gs1FKoEqfPqYa2HtTENiWZyQAO2?usp=sharing) Add the code from the video to your algebra Colab notebook to see how to solve for X using Python. Then change the code if you want, test it, and compare it to paper-and-pencil solving. Remember the equation input needs to be in Python syntax.
+
+      ==assignments==
+      Add the code to solve for x from the video to your algebra Colab notebook.
+
+      ==question==
+      In Python, what is the library you import to solve algebra problems with variables?
+
+      ==options==
+      symba
+      math
+      sympsons
+      sympy      
+
+      ==answer==
+      d
+
+    ==challenge title==
+    How to Solve for X: Extra
+
+      ==video==
+      https://www.youtube.com/watch?v=lFTCVUCbNoM
+
+      ==description==
+      This video will go deeper, with more examples of how to use SymPy solve. It will also explain how the practice functions generate the random problems.
+
+      Here is the [Colab notebook to go along with this video.](https://colab.research.google.com/drive/1Jv6WxW93J_1GZao8DkNb4X0D93oVibbs) Use it to add more to the algebra Colab notebook that you are building.
+
+      ==assignments==
+      Add the code for more ways to solve for x from the video to your algebra Colab notebook.
+
+      Open the following Colab notebook, run the cell, and [practice solving one and two-step algebra problems.](https://colab.research.google.com/drive/1XjmHoERFKcvol7FPidQE-wgdvR82HV45) As a bonus, look at the code that generates the practice problems.
+
+      ==question==
+      If you import sympy and define x as a variable, what would be the input from the following code?
+
+      example = 3*x - 12
+      equation = Eq(example,0)
+      solution = solve(equation,x)
+      print(solution)
+
+      ==options==
+      3
+      4
+      [4]
+      x = 4
+
+      ==answer==
+      b
+
+  ...more regular blocks, then a cert project:
+
+  ==block title==
+  Build a Multi-Function Calculator
+
+  ==block intro==
+  This is one of the required projects to earn your certification.
+
+  For this project, you will build a multi-function calculator.
+
+    ==challenge title==
+    Multi-Funtion Calculator
+
+      ==description==
+      You will be [working on this project with Google Colaboratory.](https://colab.research.google.com/drive/1jT7atuRCOnkdPyDmlgKVJqxouDSx7Ioh?usp=sharin)
+
+      After going to that link, create a copy of the notebook either in your own account or locally. Once you complete the project and it passes the test (included at that link), submit your project link below. If you are submitting a Google Colaboratory link, make sure to turn on link sharing for "anyone with the link."
+
+      For this challenge, you need to create a multi-function calculator using Python that take input and do the following:
+
+          solve proportions
+          solve for x in equations
+          factor square roots
+          convert decimals to fractions and percents
+          convert fractions to decimals and percents
+          convert percents to decimals and fractions
+
+      If you are struggling, you can follow the [video walkthrough for this project.](https://www.youtube.com/embed/PdsvcZNPEEs)
+
+      Once you're done, submit the URL to the public Colab notebook on your Google drive.
